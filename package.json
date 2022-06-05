@@ -6,6 +6,7 @@
     "build": "tsc --build",
     "test": "jest",
     "synth": "yarn dlx cdk synth \"*\" -c envName=dev",
+    "esbuild": "yarn dlx esbuild src/lambda-fns/scrapeUrl.ts --bundle --platform=node --target=node16 --outfile=dist/scrapeUrl.js",
     "lint": "eslint --quiet .",
     "lint:fix": "eslint --fix --quiet .",
     "precommit": "lint-staged"

@@ -41,3 +41,9 @@ node:child_process:869
     throw err;
     ^
 ```
+
+CDK uses esbuild under the hood for the NodeJsFunction construct. You can see the same errors if you run esbuild manually.
+
+```
+yarn esbuild
+```
