@@ -1,4 +1,4 @@
-# re2 esbuild bug
+# Metascraper esbuild example
 
 This repo demonstrates some issues when attempting to use metascraper from within a lambda function built using esbuild.
 
