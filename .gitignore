@@ -1,0 +1,27 @@
+# generated javascript files
+/build
+/dist
+
+# generated type definitions
+*.d.ts
+
+# libraries
+node_modules
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+code.zip
+
+# env files
+.env.dev
+.env
+
+# dependencies
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions

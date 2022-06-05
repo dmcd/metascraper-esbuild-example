@@ -1,0 +1,4 @@
+{
+  "app": "yarn dlx ts-node src/bin/cdk.ts",
+  "context": {}
+}
